@@ -1,0 +1,193 @@
+
+/* GERAL */
+html, body{height: 100%}
+.bloco {min-height: 100%; padding-top: 134px;}
+.dropdown-content li {
+  clear: both;
+  color: #000;
+  cursor: pointer;
+  min-height: 50px;
+  line-height: 1.5rem;
+  width: 100%;
+  text-align: left;
+}
+.select-dropdown li.optgroup {
+  color: rgba(0, 20, 0, 0.3);
+  background-color: transparent;
+}
+
+.select-dropdown.dropdown-content li.selected {
+  background-color: rgba(0, 50, 0, 0.03);
+}
+.select-dropdown.dropdown-content li:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+
+/* CORES */
+.blue_background {background-color: #04133b;}
+.blue_logo {background-color: #2196f3}
+.blue2 {background-color: #1d355e ;}
+.cor_transparente {background-color: transparent;}
+
+/* LOGO E IMAGENS */
+.logo_text {font-size: 0; margin: 0; }
+.logo_img {width: 60px; height: 60px; margin-top: 10px;}
+.bg_cardhome {width: 80px; height: 100px;}
+
+/* MENU */
+nav {
+  background-color: #04133b;
+  width: 100%;
+  height: 110px;
+  line-height: 94px;
+  padding-top: 18px;
+  padding-right: 0px;
+
+}
+nav.nav-extended .nav-wrapper {
+  min-height: 94px;
+  height: auto;
+}
+
+.navbar-fixed {
+  position: absolute;
+  height: 94px;
+  z-index: 997;
+}
+
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+  display: block;
+  font-size: 24px;
+  height:94px;
+  line-height: 94px;
+}
+
+.sidenav{background-color: #04133b;}
+.sidenav li>a {color: #ece5dd; font-weight: 100;}
+
+/* MEDIA cel-tablet-desktop*/
+@media only screen and (max-width: 480px) {
+ .card-image-horizontal{display: none;}
+}
+@media only screen and (min-width: 601px) {
+.banner {padding-top: 4.5rem;}
+.banner h2 {font-size: 4rem;}
+.container {width: 85%}
+}
+
+@media only screen and (min-width: 993px) {
+ .banner {padding-top: 5rem;}
+ .banner h2 {font-size: 5rem;}
+ .container {width: 90%}
+
+}
+
+/* HOME */
+.home{
+	background-color: #04133b;
+}
+.home_img{
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+/* TELA INICIAL */
+.homeimg{width: 220px; height: 220px; border-radius: 25px;}
+
+/* BOTÕES */
+.btn-custom {
+	padding: 1px 15px 3px 2px;
+	border-radius: 50px;
+}
+
+.btn-res{
+  background-color: red;
+}
+
+.btn-icon {
+	padding: 8px;
+	background: #ffffff;
+}
+
+.btn-off-dia, .btn-off-per, .btn-add-user, .btn-user-recover {
+  background-color: #04133b;
+  color: white;
+}
+
+.card {
+  margin: 0.5rem 0 1rem 0;
+  text-align: center;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+/* CONTATO */
+.contato{
+}
+
+/* FUNCIONAMENTO */
+.funcionamento{
+  background-color: red;
+}
+
+/* SERVICOS */
+.servicos{
+  background-color: #fff;
+}
+
+/* RESERVAS */
+
+.res {
+	background-color: #04133b;
+}
+
+/* AGENDA */
+
+.agenda {
+	background-color: white;
+}
+.calendarUser, .calendarManager, .calendar{
+  width: 90%;
+  margin: 30px auto;
+  height: 60%;
+  background-color: #f8f8ff;
+}
+.tabs .tab a {
+  color: darkorange;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 24px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: color .28s ease, background-color .28s ease;
+  transition: color .28s ease, background-color .28s ease;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: transparent;
+  color: darkorange;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color: #f0f0f0;
+  outline: none;
+}
+.tabs .tab.disabled a,
+.tabs .tab.disabled a:hover {
+  color: rgba(238, 110, 115, 0.4);
+  cursor: default;
+}
+.tabs .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: darkorange;
+  will-change: left, right;
+}

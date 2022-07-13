@@ -1,0 +1,17 @@
+{
+    "name": "wef/calendar",
+    "description": "Calendario Agenda de Eventos com PHP",
+    "authors": [
+        {
+            "name": "Edvan da Luz",
+            "email": "edvanjunior003@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "../../class",
+            "Models\\": "../../model"
+        }
+    }
+}

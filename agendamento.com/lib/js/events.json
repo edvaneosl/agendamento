@@ -1,0 +1,26 @@
+[
+  {
+    "title": "All Day Event",
+    "start": "2020-09-01"
+  },
+  {
+    "title": "Long Event",
+    "start": "2022-02-06",
+    "end": "2022-02-07",
+    "color": "pink"
+  },
+  {
+    "id": "999",
+    "title": "Repeating Event",
+    "start": "2022-02-12",
+    "end": "2022-02-14",
+    "color": "blue"
+  },
+  {
+    "id": "999",
+    "title": "Repeating Event",
+    "start": "2022-03-07",
+    "end": "2022-03-10",
+    "color": "blue"
+  }
+]
